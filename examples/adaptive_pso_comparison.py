@@ -194,7 +194,7 @@ def compare_adaptive_pso(function_name: str = 'rastrigin', max_iter: int = 50):
         ax.set_yscale('log')
     
     plt.tight_layout()
-    comparison_path = f'{function_name}_adaptive_comparison.png'
+    comparison_path = f'media/{function_name}_adaptive_comparison.png'
     plt.savefig(comparison_path, dpi=150, bbox_inches='tight')
     plt.close()
     print(f"Convergence comparison saved as {comparison_path}")
@@ -205,7 +205,7 @@ def compare_adaptive_pso(function_name: str = 'rastrigin', max_iter: int = 50):
         parameter_history=adaptive_results['history'],
         show_plot=False
     )
-    param_path = f'{function_name}_adaptive_parameters.png'
+    param_path = f'media/{function_name}_adaptive_parameters.png'
     plt.savefig(param_path, dpi=150, bbox_inches='tight')
     plt.close()
     print(f"Parameter adaptation plot saved as {param_path}")
@@ -214,7 +214,7 @@ def compare_adaptive_pso(function_name: str = 'rastrigin', max_iter: int = 50):
     print("\nGenerating 3D GIF animations...")
     
     # Adaptive PSO animation
-    adaptive_gif_path = f'{function_name}_adaptive_pso_animation.gif'
+    adaptive_gif_path = f'media/{function_name}_adaptive_pso_animation.gif'
     visualizer.create_3d_gif(
         positions_history=adaptive_results['history']['positions'],
         global_best_history=adaptive_results['history']['global_best_position'],
@@ -225,7 +225,7 @@ def compare_adaptive_pso(function_name: str = 'rastrigin', max_iter: int = 50):
     print(f"Adaptive PSO animation saved as {adaptive_gif_path}")
     
     # Standard PSO animation
-    standard_gif_path = f'{function_name}_standard_pso_animation.gif'
+    standard_gif_path = f'media/{function_name}_standard_pso_animation.gif'
     visualizer.create_3d_gif(
         positions_history=standard_results['history']['positions'],
         global_best_history=standard_results['history']['global_best_position'],
@@ -264,7 +264,7 @@ def compare_adaptive_pso(function_name: str = 'rastrigin', max_iter: int = 50):
     
     plt.xticks(rotation=15, ha='right')
     plt.tight_layout()
-    metrics_path = f'{function_name}_adaptive_metrics.png'
+    metrics_path = f'media/{function_name}_adaptive_metrics.png'
     plt.savefig(metrics_path, dpi=150, bbox_inches='tight')
     plt.close()
     print(f"Performance metrics saved as {metrics_path}")

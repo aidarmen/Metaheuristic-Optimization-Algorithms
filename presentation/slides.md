@@ -225,7 +225,7 @@ Go to swarm's best (Social)
 </div>
 
 <div class="flex items-center justify-center">
-  <img src="pso Formula.jpg" class="max-w-full max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/pso Formula.jpg" class="max-w-full max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 </div>
@@ -324,7 +324,7 @@ class: text-center
 <div class="text-lg mb-2 font-semibold">PSO in Action: Sphere Function</div>
 
 <div class="flex justify-center items-center mt-2">
-  <img src="sphere_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/sphere_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 <div class="mt-2 text-xs opacity-70">
@@ -339,7 +339,7 @@ class: text-center
 <div class="text-lg mb-2 font-semibold">PSO on Rastrigin Function</div>
 
 <div class="flex justify-center items-center mt-2">
-  <img src="rastrigin_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/rastrigin_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 <div class="mt-2 text-xs opacity-70">
@@ -354,7 +354,7 @@ class: text-center
 <div class="text-lg mb-2 font-semibold">PSO on Ackley Function</div>
 
 <div class="flex justify-center items-center mt-2">
-  <img src="ackley_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/ackley_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 <div class="mt-2 text-xs opacity-70">
@@ -368,19 +368,19 @@ layout: two-cols
 # Convergence Analysis
 
 <div>
-  <img src="sphere_convergence.png" class="rounded shadow-lg max-h-48" />
+  <img src="../media/sphere_convergence.png" class="rounded shadow-lg max-h-48" />
   <div class="text-xs mt-1 opacity-70">Sphere</div>
 </div>
 
 <div>
-  <img src="rastrigin_convergence.png" class="rounded shadow-lg max-h-48" />
+  <img src="../media/rastrigin_convergence.png" class="rounded shadow-lg max-h-48" />
   <div class="text-xs mt-1 opacity-70">Rastrigin</div>
 </div>
 
 ::right::
 
 <div>
-  <img src="ackley_convergence.png" class="rounded shadow-lg max-h-64" />
+  <img src="../media/ackley_convergence.png" class="rounded shadow-lg max-h-64" />
   <div class="text-xs mt-1 opacity-70">Ackley</div>
 </div>
 
@@ -403,7 +403,7 @@ class: text-center
 <div class="text-lg mb-2 font-semibold">Non-Symmetrical: Beale Function</div>
 
 <div class="flex justify-center items-center mt-2">
-  <img src="beale_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/beale_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 <div class="mt-2 text-xs opacity-70">
@@ -418,7 +418,7 @@ class: text-center
 <div class="text-lg mb-2 font-semibold">Non-Symmetrical: Goldstein-Price</div>
 
 <div class="flex justify-center items-center mt-2">
-  <img src="goldstein_price_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/goldstein_price_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 <div class="mt-2 text-xs opacity-70">
@@ -433,7 +433,7 @@ class: text-center
 <div class="text-lg mb-2 font-semibold">Non-Symmetrical: Rotated Ellipsoid</div>
 
 <div class="flex justify-center items-center mt-2">
-  <img src="rotated_ellipsoid_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/rotated_ellipsoid_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 <div class="mt-2 text-xs opacity-70">
@@ -447,19 +447,19 @@ layout: two-cols
 # Convergence: Non-Symmetrical
 
 <div>
-  <img src="beale_convergence.png" class="rounded shadow-lg max-h-40" />
+  <img src="../media/beale_convergence.png" class="rounded shadow-lg max-h-40" />
   <div class="text-xs mt-1 opacity-70">Beale</div>
 </div>
 
 <div>
-  <img src="goldstein_price_convergence.png" class="rounded shadow-lg max-h-40" />
+  <img src="../media/goldstein_price_convergence.png" class="rounded shadow-lg max-h-40" />
   <div class="text-xs mt-1 opacity-70">Goldstein-Price</div>
 </div>
 
 ::right::
 
 <div>
-  <img src="rotated_ellipsoid_convergence.png" class="rounded shadow-lg max-h-48" />
+  <img src="../media/rotated_ellipsoid_convergence.png" class="rounded shadow-lg max-h-48" />
   <div class="text-xs mt-1 opacity-70">Rotated Ellipsoid</div>
 </div>
 
@@ -483,12 +483,12 @@ layout: default
 <div class="grid grid-cols-2 gap-4">
 
 <div>
-  <img src="beale_comparison.png" class="rounded shadow-lg max-h-56" />
+  <img src="../media/beale_comparison.png" class="rounded shadow-lg max-h-56" />
   <div class="text-xs mt-1 opacity-70">Beale Function</div>
 </div>
 
 <div>
-  <img src="goldstein_price_comparison.png" class="rounded shadow-lg max-h-56" />
+  <img src="../media/goldstein_price_comparison.png" class="rounded shadow-lg max-h-56" />
   <div class="text-xs mt-1 opacity-70">Goldstein-Price</div>
 </div>
 
@@ -503,12 +503,12 @@ layout: default
 <div class="grid grid-cols-2 gap-4">
 
 <div>
-  <img src="three_hump_camel_comparison.png" class="rounded shadow-lg max-h-56" />
+  <img src="../media/three_hump_camel_comparison.png" class="rounded shadow-lg max-h-56" />
   <div class="text-xs mt-1 opacity-70">Three-Hump Camel</div>
 </div>
 
 <div>
-  <img src="rotated_ellipsoid_comparison.png" class="rounded shadow-lg max-h-56" />
+  <img src="../media/rotated_ellipsoid_comparison.png" class="rounded shadow-lg max-h-56" />
   <div class="text-xs mt-1 opacity-70">Rotated Ellipsoid</div>
 </div>
 
@@ -523,12 +523,12 @@ layout: default
 <div class="grid grid-cols-2 gap-4">
 
 <div>
-  <img src="shifted_sphere_comparison.png" class="rounded shadow-lg max-h-64" />
+  <img src="../media/shifted_sphere_comparison.png" class="rounded shadow-lg max-h-64" />
   <div class="text-xs mt-1 opacity-70">Shifted Sphere</div>
 </div>
 
 <div>
-  <img src="easom_comparison.png" class="rounded shadow-lg max-h-64" />
+  <img src="../media/easom_comparison.png" class="rounded shadow-lg max-h-64" />
   <div class="text-xs mt-1 opacity-70">Easom Function</div>
 </div>
 
@@ -828,7 +828,7 @@ class: text-center
 # Parameter Adaptation Visualization
 
 <div class="flex justify-center items-center">
-  <img src="rastrigin_adaptive_parameters.png" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/rastrigin_adaptive_parameters.png" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 <div class="mt-2 text-xs opacity-70">
@@ -843,7 +843,7 @@ class: text-center
 # Adaptive PSO in Action
 
 <div class="flex justify-center items-center">
-  <img src="rastrigin_adaptive_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/rastrigin_adaptive_pso_animation.gif" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 <div class="mt-2 text-xs opacity-70">
@@ -857,7 +857,7 @@ layout: default
 # Convergence Comparison
 
 <div class="flex justify-center items-center">
-  <img src="rastrigin_adaptive_comparison.png" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
+  <img src="../media/rastrigin_adaptive_comparison.png" class="w-4/5 max-h-[70vh] rounded-lg shadow-lg" />
 </div>
 
 <div class="mt-2 text-xs opacity-70 text-center">
@@ -873,12 +873,12 @@ layout: default
 <div class="grid grid-cols-2 gap-4">
 
 <div>
-  <img src="sphere_adaptive_comparison.png" class="rounded shadow-lg max-h-64" />
+  <img src="../media/sphere_adaptive_comparison.png" class="rounded shadow-lg max-h-64" />
   <div class="text-xs mt-1 opacity-70 text-center">Sphere Function</div>
 </div>
 
 <div>
-  <img src="ackley_adaptive_comparison.png" class="rounded shadow-lg max-h-64" />
+  <img src="../media/ackley_adaptive_comparison.png" class="rounded shadow-lg max-h-64" />
   <div class="text-xs mt-1 opacity-70 text-center">Ackley Function</div>
 </div>
 
@@ -893,12 +893,12 @@ layout: default
 <div class="grid grid-cols-2 gap-4">
 
 <div>
-  <img src="rastrigin_adaptive_metrics.png" class="rounded shadow-lg max-h-64" />
+  <img src="../media/rastrigin_adaptive_metrics.png" class="rounded shadow-lg max-h-64" />
   <div class="text-xs mt-1 opacity-70 text-center">Rastrigin</div>
 </div>
 
 <div>
-  <img src="ackley_adaptive_metrics.png" class="rounded shadow-lg max-h-64" />
+  <img src="../media/ackley_adaptive_metrics.png" class="rounded shadow-lg max-h-64" />
   <div class="text-xs mt-1 opacity-70 text-center">Ackley</div>
 </div>
 

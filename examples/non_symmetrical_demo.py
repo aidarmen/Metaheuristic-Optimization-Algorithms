@@ -82,16 +82,16 @@ def run_non_symmetrical_demo(function_name: str = 'beale'):
     # Plot convergence
     print("Generating convergence plot...")
     visualizer.plot_convergence(results['history'], show_plot=False)
-    plt.savefig(f'{function_name}_convergence.png', dpi=150, bbox_inches='tight', facecolor='white')
+    plt.savefig(f'media/{function_name}_convergence.png', dpi=150, bbox_inches='tight', facecolor='white')
     plt.close()
-    print(f"Convergence plot saved as {function_name}_convergence.png")
+    print(f"Convergence plot saved as media/{function_name}_convergence.png")
     
     # Create 3D GIF animation
     print("\nGenerating 3D GIF animation...")
     gif_path = visualizer.create_3d_gif(
         positions_history=results['history']['positions'],
         global_best_history=results['history']['global_best_position'],
-        save_path=f'{function_name}_pso_animation.gif',
+        save_path=f'media/{function_name}_pso_animation.gif',
         fps=6,  # Slightly faster for non-symmetrical functions
         dpi=120  # Higher resolution
     )

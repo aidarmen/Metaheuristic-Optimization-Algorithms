@@ -193,9 +193,9 @@ def compare_methods_on_non_symmetrical(function_name: str = 'beale', max_iter: i
         other_histories=other_histories,
         show_plot=False
     )
-    plt.savefig(f'{function_name}_comparison.png', dpi=150, bbox_inches='tight', facecolor='white')
+    plt.savefig(f'media/{function_name}_comparison.png', dpi=150, bbox_inches='tight', facecolor='white')
     plt.close()
-    print(f"Comparison plot saved as {function_name}_comparison.png")
+    print(f"Comparison plot saved as media/{function_name}_comparison.png")
     
     # Create detailed comparison table
     print(f"\n{'='*80}")

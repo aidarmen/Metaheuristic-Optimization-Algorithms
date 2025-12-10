@@ -14,11 +14,22 @@ This package provides a complete educational resource for understanding Particle
 
 ## Installation
 
-1. Clone or download this repository
+1. Clone the repository:
+```bash
+git clone https://github.com/aidarmen/Metaheuristic-Optimization-Algorithms.git
+cd Metaheuristic-Optimization-Algorithms
+```
 
-2. Install required dependencies:
+2. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+3. (Optional) Install Node.js dependencies for the presentation:
+```bash
+cd presentation
+npm install
+cd ..
 ```
 
 ## Project Structure
@@ -26,7 +37,8 @@ pip install -r requirements.txt
 ```
 ├── algorithms/
 │   ├── __init__.py
-│   ├── particle_swarm_optimization.py    # PSO implementation
+│   ├── particle_swarm_optimization.py    # Standard PSO implementation
+│   ├── adaptive_pso.py                  # Adaptive PSO implementation
 │   ├── gradient_descent.py              # Gradient descent for comparison
 │   ├── random_search.py                  # Random search baseline
 │   └── hill_climbing.py                  # Hill climbing algorithm
@@ -44,9 +56,22 @@ pip install -r requirements.txt
 ├── examples/
 │   ├── interactive_demo.py               # Main interactive demonstration
 │   ├── pso_vs_traditional.py             # PSO vs traditional methods
+│   ├── adaptive_pso_comparison.py        # Adaptive PSO comparison
 │   ├── benchmark_comparison.py            # Compare across functions
-│   └── parameter_sensitivity.py          # Parameter analysis
+│   ├── parameter_sensitivity.py          # Parameter analysis
+│   ├── non_symmetrical_demo.py           # Non-symmetrical functions demo
+│   └── non_symmetrical_comparison.py     # Non-symmetrical comparison
+├── presentation/
+│   ├── slides.md                         # Slidev presentation
+│   ├── slides.config.ts                  # Slidev configuration
+│   ├── package.json                      # Node.js dependencies
+│   └── README_PRESENTATION.md            # Presentation instructions
+├── media/
+│   ├── *.png                             # Convergence plots, comparisons
+│   ├── *.gif                             # PSO animations
+│   └── *.jpg                             # Formula diagrams
 ├── requirements.txt
+├── convert_to_pptx.py                    # Convert slides to PowerPoint
 └── README.md
 ```
 
@@ -179,6 +204,12 @@ Demonstrates PSO on non-symmetrical optimization functions.
 python examples/non_symmetrical_comparison.py
 ```
 Compares PSO with traditional methods on non-symmetrical functions.
+
+### 7. Adaptive PSO Comparison
+```bash
+python examples/adaptive_pso_comparison.py
+```
+Compares Adaptive PSO with Standard PSO and Gradient Descent.
 
 ## Real-World Applications
 
@@ -323,6 +354,51 @@ Feel free to extend this package with:
 - More optimization algorithms
 - Enhanced visualizations
 - New application examples
+
+## Presentation
+
+A comprehensive Slidev presentation is included in the `presentation/` folder.
+
+### Running the Presentation
+
+1. Navigate to the presentation directory:
+```bash
+cd presentation
+```
+
+2. Install dependencies (if not already done):
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The presentation will open in your browser at `http://localhost:3030`
+
+### Exporting the Presentation
+
+**Export to PDF:**
+```bash
+cd presentation
+npm run export
+```
+
+**Export to PowerPoint:**
+```bash
+cd presentation
+npm run export -- --format png --output slides-export
+cd ..
+python convert_to_pptx.py
+```
+
+For more details, see [presentation/README_PRESENTATION.md](presentation/README_PRESENTATION.md)
+
+## Repository
+
+GitHub: https://github.com/aidarmen/Metaheuristic-Optimization-Algorithms
 
 ## Contact
 

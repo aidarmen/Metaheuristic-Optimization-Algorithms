@@ -12,7 +12,7 @@
     "@slidev/theme-default": "^0.24.0"
   },
   "slidev": {
-    "publicDir": "."
+    "publicDir": ".."
   },
   "devDependencies": {
     "playwright-chromium": "^1.57.0"

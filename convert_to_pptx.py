@@ -7,7 +7,7 @@ from pptx import Presentation
 from pptx.util import Inches
 import glob
 
-def create_pptx_from_images(image_dir='slides-export', output_file='slides.pptx'):
+def create_pptx_from_images(image_dir='presentation/slides-export', output_file='presentation/slides.pptx'):
     """
     Create a PowerPoint presentation from PNG images.
     
