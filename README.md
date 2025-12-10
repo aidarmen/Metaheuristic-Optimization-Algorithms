@@ -390,8 +390,7 @@ npm run export
 ```bash
 cd presentation
 npm run export -- --format png --output slides-export
-cd ..
-python convert_to_pptx.py
+# Then use PowerPoint or other tools to create PPTX from PNG images
 ```
 
 For more details, see [presentation/README_PRESENTATION.md](presentation/README_PRESENTATION.md)

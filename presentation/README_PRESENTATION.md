@@ -54,13 +54,7 @@ To export to PowerPoint (PPTX):
 npm run export -- --format png --output slides-export
 ```
 
-2. Then convert to PPTX using the Python script (from project root):
-```bash
-cd ..
-python convert_to_pptx.py
-```
-
-This will create `slides.pptx` in the presentation folder.
+2. Then use PowerPoint or other tools to create PPTX from the PNG images in `slides-export/` folder.
 
 ## Presentation Contents
 
