@@ -71,7 +71,6 @@ cd ..
 │   ├── *.gif                             # PSO animations
 │   └── *.jpg                             # Formula diagrams
 ├── requirements.txt
-├── convert_to_pptx.py                    # Convert slides to PowerPoint
 └── README.md
 ```
 
