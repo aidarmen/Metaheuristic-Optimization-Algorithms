@@ -1,0 +1,20 @@
+{
+  "name": "pso-presentation",
+  "version": "1.0.0",
+  "description": "Particle Swarm Optimization Presentation",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.45.0",
+    "@slidev/theme-default": "^0.24.0"
+  },
+  "slidev": {
+    "publicDir": "."
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.57.0"
+  }
+}
