@@ -1,7 +1,7 @@
 import { defineConfig } from '@slidev/types'
 
 export default defineConfig({
-  // Public assets directory - points to parent directory to access media folder
-  publicDir: '..',
+  // Serve assets from the local public folder (presentation/public)
+  publicDir: 'public',
 })
 
